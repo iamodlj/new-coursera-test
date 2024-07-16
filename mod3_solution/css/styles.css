@@ -1,0 +1,32 @@
+/* styles for the page */
+body { 
+    padding-top: 50px;
+  }
+
+  .navbar {
+    margin-bottom: 0, center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .nav.navbar-nav.visible-xs {
+    text-align: center;
+    list-style: none;  /* removes default bullet points */
+    margin: 0 auto;  /* optional: centers the list horizontally */
+  }
+  
+  .nav.navbar-nav.visible-xs li {
+    margin-bottom: 10px; background-color: rgb(0, 0, 0); /* adds space between list items */
+  }
+  
+  
+  
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      background-color: #ffffff; 
+    }
+    .navbar-collapse .nav li a {
+      color: rgb(255, 255, 255); 
+    }
+  }
+  
